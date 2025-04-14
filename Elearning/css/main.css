@@ -28,6 +28,13 @@ body {
   position: absolute;
   top: 35%;
 }
+.owl-carousel .owl-nav button.owl-next:hover, .owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #fff;
+  color: #1d424b;
+}
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus {
+  outline: none;
+}
 .owl-carousel .owl-nav button.owl-next {
   right: -3%;
 }
@@ -199,6 +206,10 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+.courses .courses__content .row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .courses .courses__content .courses__left {
   background-color: rgba(20, 23, 28, 0.05);
   padding: 0 2rem;
@@ -227,6 +238,17 @@ body {
 .courses .courses__content #myTab .nav-link.active {
   border: none;
   border-bottom: 5px solid #1d424b;
+}
+
+.viewing {
+  padding: 22px 0;
+}
+.viewing .viewing__content {
+  width: 90%;
+  margin: 0 auto;
+}
+.viewing h2 {
+  font-size: 20px;
 }
 
 .button--white {
